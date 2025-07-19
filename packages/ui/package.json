@@ -12,10 +12,17 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
+<<<<<<< HEAD
     "@repo/typescript-config": "*",
     "@types/node": "^22.15.3",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
+=======
+    "@repo/tailwind-config": "*",
+    "@repo/typescript-config": "*",
+    "@tailwindcss/cli": "^4.1.5",
+    "@types/react": "^19.1.0",
+>>>>>>> 50062b3 (feat(create-turbo): apply package-manager transform)
     "eslint": "^9.31.0",
     "typescript": "5.8.2"
   },
