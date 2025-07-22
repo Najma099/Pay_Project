@@ -22,7 +22,10 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+    "@repo/db": ["../../packages/db/src/index.ts"]
+}
   },
   "include": [
     "**/*.ts",

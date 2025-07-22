@@ -1,6 +1,10 @@
+import { prisma } from "@repo/db";
 
-export default function Page() {
+export default async function Home() {
+  const user = await prisma.user.findFirst() 
   return (
-    <div className="text-6xl text-amber-300">HII From merchant</div>
+    <div className="text-4xl text-amber-200">
+      {user?.name ?? "No user added yet"}
+    </div>
   );
 }

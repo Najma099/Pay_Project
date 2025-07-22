@@ -1,6 +1,9 @@
+"use client";
+import { useBalance } from "../../../packages/store/src/hook/useBalance";
 
-export default function Page() {
-  return (
-    <div className="text-6xl text-blue-300">HII from user</div>
-  );
+export default function() {
+  const balance = useBalance();
+  return <div>
+    hi there {balance}
+  </div>
 }

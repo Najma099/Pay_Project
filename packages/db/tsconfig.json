@@ -1,6 +1,12 @@
 {
   "extends": "@repo/typescript-config/base.json",
   "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": true,
+    "allowImportingTsExtensions": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "outDir": "dist"
   },
   "include": ["."],
